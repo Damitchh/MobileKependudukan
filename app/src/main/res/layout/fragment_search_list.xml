@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SearchList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banyak List"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:layout_marginBottom="48dp"/>
+
+        <EditText
+            android:id="@+id/jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter here...."
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginHorizontal="48dp"/>
+
+        <Button
+            android:id="@+id/ambil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ambil"
+            android:layout_marginHorizontal="48dp"/>
+    </LinearLayout>
+
+</FrameLayout>
